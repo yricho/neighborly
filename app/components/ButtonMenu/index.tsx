@@ -9,9 +9,13 @@ function ButtonMenu(props) {
       <img src="" width={24} height={24} />
       <div
         style={{
-          marginLeft: 4,
-          color: "red",
-          alignItems: "center",
+          color: "var(--Gray-900, #101828)",
+          fontFamily: "Inter",
+          fontSize: "36px",
+          fontStyle: "normal",
+          fontWeight: "600",
+          lineHeight: "44px",
+          letterSpacing: "-0.72px",
         }}
       >
         {judul}

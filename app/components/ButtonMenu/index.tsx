@@ -1,4 +1,4 @@
-function ButtonMenu(props) {
+function ButtonMenu(props: any) {
   const judul = props.title;
   return (
     <div
@@ -6,7 +6,7 @@ function ButtonMenu(props) {
         display: "flex",
       }}
     >
-      <img src="" width={24} height={24} />
+      <img src="/images/nextjs-logo.png" width={24} height={24} />
       <div
         style={{
           color: "var(--Gray-900, #101828)",

@@ -1,13 +1,13 @@
 // import CardComponent from "./components/card/card";
 // import HeroComponent from "./components/hero";
 import ButtonMenu from "./components/ButtonMenu";
+import Review from "./components/Review";
 
 export default function Home() {
   return (
     <div>
-      
 
-      <ButtonMenu title={"Kategori"}/>
+      <ButtonMenu title={"Kategori"} />
 
       <ButtonMenu title={"Handphone & Tablet"} />
 
@@ -22,7 +22,9 @@ export default function Home() {
 
       {/* metric section */}
 
-      {/* quote section */}
+      {/* review section*/}
+      <Review />
+
 
       {/* faq section */}
 

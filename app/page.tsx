@@ -1,6 +1,7 @@
 // import CardComponent from "./components/card/card";
 // import HeroComponent from "./components/hero";
 import ButtonMenu from "./components/ButtonMenu";
+import Chef from "./components/Chef";
 import Review from "./components/Review";
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
       {/* pricing section */}
 
       {/* metric section */}
-
+      <Chef />
       {/* review section*/}
       <Review />
 

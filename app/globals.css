@@ -28,3 +28,113 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bob {
+  margin-top: -100px;
+  margin-left: 170px;
+}
+
+.bib {
+  color: gray;
+  line-height: 2;
+  margin-left: 175px;
+  margin-bottom: 300px;
+}
+
+.gambarBawang{
+  margin-top: 100px;
+}
+
+.gambarBawangBawang{
+  width: 190px;
+  height: 200px;
+  margin-top: -230px;
+  margin-left: 100px;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-top: -190px;
+  
+  
+}
+
+.check-icon {
+  font-size: 0.9rem;
+  margin-top: -3px;
+  margin-left: 14%;
+
+}
+
+.feature-list2 li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-top: -163px;
+  
+  
+}
+
+.check-icon2 {
+  font-size: 0.9rem;
+  margin-top: -3px;
+  margin-left: 35%;
+
+}
+
+.chefnya{
+  width: 357px;
+  height: 465px;
+  margin-left: 800px;
+  margin-top: -40%;
+
+}
+
+.buttons2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  margin-top: 3rem;
+  width: 100%;
+  position: relative;
+}
+
+.menu-btn2 {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin-left: 285px;
+}
+
+.menu-btn2:hover {
+  background-color: #333;
+}
+
+.book-btn2 {
+  background-color: #f97316;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.book-btn2:hover {
+  background-color: #e5630e;
+}
+
+
+.tidakkelihatan{
+  visibility: hidden;
+  margin-bottom: 120px;
+
+}
+
+
+

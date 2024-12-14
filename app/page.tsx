@@ -3,6 +3,8 @@
 import ButtonMenu from "./components/ButtonMenu";
 import Chef from "./components/Chef";
 import Review from "./components/Review";
+import Cta from "./components/Cta";
+
 
 export default function Home() {
   return (
@@ -20,7 +22,7 @@ export default function Home() {
       {/* features section */}
 
       {/* pricing section */}
-
+      <Cta />
       {/* metric section */}
       <Chef />
       {/* review section*/}
